@@ -1,0 +1,39 @@
+{
+  "name": "waleedsamy.github.io",
+  "version": "1.0.0",
+  "description": "hust about me in other words it is my resumé",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "js-beautify": "node_modules/.bin/js-beautify --html -r index.html",
+    "mark-it-down":"grunt",
+    "git-add": "git add --all"
+  },
+  "pre-commit": [
+    "js-beautify",
+    "mark-it-down",
+    "git-add"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waleedsamy/waleedsamy.github.io.git"
+  },
+  "keywords": [
+    "resumé",
+    "waleedsamy"
+  ],
+  "author": "waleed_samy@ymail.com",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/waleedsamy/waleedsamy.github.io/issues"
+  },
+  "homepage": "https://github.com/waleedsamy/waleedsamy.github.io#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-markdown": "^0.7.0",
+    "js-beautify": "^1.5.10",
+    "load-grunt-tasks": "^3.3.0",
+    "pre-commit": "^1.1.1",
+    "time-grunt": "^1.2.1"
+  }
+}
