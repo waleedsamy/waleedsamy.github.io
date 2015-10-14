@@ -12,9 +12,17 @@ module.exports = function(grunt) {
     markdown: {
       all: {
         files: [{
-          src: 'README.md',
+          src: 'index.md',
           dest: 'index.html',
-        }]
+        }],
+        options: {
+          template: 'template.jst',
+          templateContext: {
+            title: 'Waleed Samy',
+            description: 'Waleed Samy Resumé',
+            github: 'waleedsamy'
+          }
+        }
       }
     }
   });

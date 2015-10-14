@@ -10,8 +10,8 @@
     "git-add": "git add --all"
   },
   "pre-commit": [
-    "js-beautify",
     "mark-it-down",
+    "js-beautify",
     "git-add"
   ],
   "repository": {
