@@ -9,27 +9,32 @@ module.exports = function(grunt) {
   require("time-grunt")(grunt);
 
   grunt.initConfig({
-    markdown: {
-      all: {
-        files: [{
-          src: 'index.md',
-          dest: 'index.html',
-        }],
-        options: {
-          template: 'template.jst',
-          templateContext: {
-            title: 'Waleed Samy',
-            description: 'Waleed Samy Resumé',
-            github: 'waleedsamy'
-          }
+    md2html: {
+      options: {
+        layout: "template.jst",
+        templateData: {
+          title: 'Waleed Samy',
+          description: 'Waleed Samy Resumé',
+          github_user: 'waleedsamy',
+          email: 'waleed_samy@ymail.com',
+          sec_email: 'waleedsamy634@gmail.com',
+          github_link: 'https://github.com/waleedsamy',
+          linkedin_link: 'http://eg.linkedin.com/in/waleedsamy/',
+          skype_id: 'waleedsamy907',
+          address: 'Cairo, Egypt'
         }
-      }
+      },
+      cv: {
+        src: ['index.md'],
+        dest: 'index.html'
+      },
     }
   });
 
-  grunt.loadNpmTasks('grunt-markdown');
+  grunt.loadNpmTasks('grunt-md2html');
+
 
   grunt.registerTask("default", [
-    "markdown"
+    "md2html:cv"
   ]);
 };
