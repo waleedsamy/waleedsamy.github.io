@@ -28,6 +28,10 @@ module.exports = function(grunt) {
         src: ['index.md'],
         dest: 'index.html'
       },
+      books: {
+        src: ['books.md'],
+        dest: 'books.html'
+      }
     }
   });
 
@@ -35,6 +39,6 @@ module.exports = function(grunt) {
 
 
   grunt.registerTask("default", [
-    "md2html:cv"
+    "md2html:cv", "md2html:books"
   ]);
 };

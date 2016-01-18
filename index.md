@@ -34,7 +34,11 @@ _I am a Software Engineer with 4 years of experience in developing systems using
 
 ------------------
 **Professional History :**
-- [Ubicall](https://www.ubicall.com) / [SAND](http://sandcti.com/) `registered with name soft kinetics`      `March 2015        -Till Now`
+- [traffics Softwaresysteme für den Tourismus GmbH](http://www.traffics.de/)  `June 2016 - Till Now`
+
+> //TODO
+
+- [Ubicall](https://www.ubicall.com) / [SAND](http://sandcti.com/) `registered with name soft kinetics`      `March 2015        - May 2016`
 
   > Part of team who heavily use Agile and XP to deliver highly scalable web applications based on microservices architecture using technologies like J2EE(JSF 2.x, EJB 3.x, JPA, JMS), spring framework, nodejs and Angularjs.
   Forked [NODE-RED](https://github.com/ubicall/node-red) to deliver customized [IOT components](https://github.com/ubicall/node-red-contrib-ivr) and developing our own VoIP and call center solutions based based on [freeswitch](https://freeswitch.org/) and [asterisk](http://www.asterisk.org/) servers.
@@ -55,7 +59,8 @@ _I am a Software Engineer with 4 years of experience in developing systems using
   > Use J2EE and Apache Solr to develop web-based editorial management tools for newspapers,news agencies, media houses and content providers and publishers to manage, audit and revise their content with their own designed editorial workflow.
 
 
-- Freelancer                              `June 2012 - March 2013`
+- Freelancer                              `Nov 2012 - Jan 2013`
+ > Use Python, Django and Java as backend stack for mobile applications which built around GPS and real time tracking.
 
 ------------------
 **Languages :**
