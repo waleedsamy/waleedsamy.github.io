@@ -1,15 +1,2 @@
-### waleedsamy.github.io
-> my resumé availabe at https://waleedsamy.github.io  
-
-## how it work
-  * use [grunt-md2html](https://github.com/bylexus/grunt-md2html) to convert markdown in [index.md](https://github.com/waleedsamy/waleedsamy.github.io/blob/master/index.md) to equivalent HTML in [index.html] (https://github.com/waleedsamy/waleedsamy.github.io/blob/master/index.html) using [template.jst](https://github.com/waleedsamy/waleedsamy.github.io/blob/master/template.jst) as template.
-  * use [pre-commit](https://github.com/observing/pre-commit) to run hook for grunt-markdown and js-beautify _find it in package.json._
-
-## if you like to use
-```bash
-npm install
-# edit index.md with your content
-# edit Gruntfile.js markdown templateData object with your social connections
-# edit template.jst if you need to customize it
-git commit -am "check your index.html now" && git push origin master
-```
+### Résumé
+> My résumé available at https://waleedsamy.github.io
