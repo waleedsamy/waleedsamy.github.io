@@ -28,75 +28,114 @@
       Waleed Darwish
       Software Developer
       <a href="mailto:waleedsamygd@protonmail.com">E-mail</a>, <a href="https://github.com/waleedsamy">Github</a>, <a href="https://de.linkedin.com/in/waleedsamy">Linkedin</a>, <a href="pgp.txt">pgp</a>
-      Resume available as <a href="https://docs.google.com/document/d/1N0KUXy99NdI0RRe_rX7jMQGSjGDmq6K4FNvq1TDCuDs">Google docs<a>
+      Resume available as <a href="https://docs.google.com/document/d/1N0KUXy99NdI0RRe_rX7jMQGSjGDmq6K4FNvq1TDCuDs/view">Google docs<a>
       Berlin, Germany
 
 
       1. Profile
 
-         Build software for +6 years using Scala, Node.js and Java. Which allowed me to
-         gain experience in developing applications using imperative/object oriented and functional styles.
+         Building software for +6 years using Scala, Nodejs and Java which allowed me to
+         gain experience using many programming paradigms such as imperative/object oriented,
+         declarative and functional programming.
 
       2. Technical Skills
 
-          Programming: Scala, Java and Javascript.
-          Technologies:  J2EE, Spring Framework and Node.js.
+          Programming: Scala, Node.js, Java and Python.
           Database: Mysql, Mongo, Elasticsearch, Apache Solr and Redis.
           Operating Systems: Linux (Debian or Redhat Based), MacOS.
-          EveryDay Tools: Eclipse ,Netbeans, Junit, Git , Maven, Virtualenv ,pip ,mocha ,chai and Grunt.
+          Everyday Tools: Intellj, Git, ScalaTest, Junit, Maven, Virtualenv, Pip, Jenkins.
+          Front end: JavaScript, AngularJS and Twitter Bootstrap.
           Methodologies: OOP, Design Patterns and Microservice Architecture.
-          Utilities I use: Docker, Vagrant, Ansible, prometheus, fluentd, Kubernetes, Apache Nginx, GlassFish and Apache Tomcat.
+          Utilities I use: Docker, Kubernetes, Prometheus, Fluentd, Nginx, Apache Airflow, Swagger.
 
 
       3. Professional History
 
-      3.1 June. 2016 - Till Now		Traffics GmbH
+      3.1 Jun. 2016 - Till Now  		<a href='https://www.traffics.de/'>Traffics GmbH</a>                         Berlin, Germany
 
-         You build it, you run it, is the way we fellow in Traffics to deliver software.
-         We adapt <a href="https://12factor.net/">12factor</a> app methodology while building microservices and applications
-         using languages like Scala, Node.js. Running and scaling these microservices is achieved by using technologies
-         like docker, kubernetes, ELK stack and prometheus.
+        As a software developer in Traffics GmbH, I worked on many systems/projects; From building
+        data processing tools with Scala,  APIs with Node.js, and using Python in many glue-like
+        projects that facilitate the interaction between our internal systems/applications.
+        In Traffics, we praise the <a href='twelve-factor app'>twelve-factor app</a> methodology which helped us build a portable
+        and resilient software. Running and scaling our systems is achieved by using technologies like
+        Docker, Kubernetes, ELK stack and Prometheus.
 
-      3.2  Mar. 2015 - May.2016		SAND / Ubicall
+        <strong>I’m a member of the <i><a href="https://scala-lang.org/">Scala</a></i> team</strong> who is reasonable for <strong>implementing <a href="https://web.archive.org/web/20190221195125/https://www.otds.de/en/">OTDS</a><a href="#traffics_fn1">[1]</a><a href="#traffics_fn2">[2]</a> specification and building
+        Traffics’s toolchain to process the hundreds of gigabytes of the otds data that we receive daily</strong>.
+        We depend heavily on testing (unit, integration and acceptance tests) to guarantee the quality of
+        our code base (~30K colc). I’m also maintaining and contributing to <a href="https://en.wikipedia.org/wiki/XSLT">XSLT</a> schemas that we use to
+        <i>simplify/preporocess</i> OTDS data before feeding it to the first stage in our data processing pipeline.
+
+        I have been a member of <strong><a href="https://github.com/nodejs/node">Node.js</a> team. We developed tens of REST APIs for internal use and one main
+        REST API - <a href="http://www.traffics.de/universal-connector/">Connector</a> - that is <a href="https://web.archive.org/web/20200911093946/https://docs.traffics.de/connector/v3/">used by our b2c clients</a> everyday to search for flights,
+        hotels and package offers</strong>. Traffic's customer list is quite long and it includes many big names in the
+        tourism industry in Germany and Europe like <a href="https://en.wikipedia.org/wiki/TUI_Group">TUI</a>, <a href="https://de.wikipedia.org/wiki/FTI_Group">FTI</a>. To serve our customers needs,
+        scaling our services was very critical for us. Back in 2016, <strong>I was responsible for bringing <a href="https://kubernetes.io/">Kubernetes</a> into
+        the company</strong> and switching all our services to run on top of it and make sure that everything runs smoothly and
+        scales well. To get insight about our services’ states, we collect many matrices to be stored in <a href="https://github.com/prometheus/prometheus">Prometheus</a> and later
+        shown on <a href="https://github.com/grafana/grafana">Grafana</a>, and for a detailed insight, we used <a href="https://www.elastic.co/what-is/elk-stack">ELK stack</a> to make it easy to look into our logs.
+
+        Beside developing the tools that we need to process OTDS data (Scala) and APIs (Node.js) to search in the processed
+        OTDS data, <strong>I’m also working on introducing <a href="https://airflow.apache.org/">Apache Airflow</a> to our company</strong>, and replacing the old processing
+        tools (Perl and Bash) with Apache Airflow <a href="https://en.wikipedia.org/wiki/Directed_acyclic_graph">dags</a> (Python) that take  advantage of not only the nice web UI of Airflow but
+        also build on top of <a href="https://docs.celeryproject.org/en/stable/">Celery</a> and <a href="https://www.rabbitmq.com/">Rabbitmq</a> to provide more <a href="https://github.com/apache/airflow/issues/9902">dynamic</a> environment to executes our dags. Our focus now is
+        to make sure that the hundreds of data processing jobs that we start everyday work smoothly and fast on top of
+        Apache Airflow that is running in our datacenter (<strong>saving the cost of running these jobs on AWS</strong>).
+
+        As a fun project, I developed an Amazon Alexa skill, <a href="https://alexa.amazon.de/spa/index.html#skills/dp/B0731FHP62">Reisesuche</a>, by which you could
+        <a href="https://www.youtube.com/watch?v=h8HXax6ciK0">search for hotels and package offers</a> (in German) using your Amazon Echo & Alexa Devices.
+
+
+      3.2 Mar. 2015 - May. 2016 		<a href='https://www.linkedin.com/company/sand-s.a.e.'>SAND</a>                                  Cairo, Egypt
 
          Part of team who heavily use Agile and XP to deliver highly scalable web applications
          based on microservices architecture using technologies like J2EE(JSF 2.x, EJB 3.x, JPA, JMS),
          spring framework, nodejs and Angularjs.
-         Forked <a href="https://github.com/ubicall/node-red">NODE-RED</a> to deliver customized IOT
-         components and developing our own VoIP and call center solutions based on FreeSwitch and Asterisk servers.
-         Use javascript to build rich front end with Angularjs and Nodejs/Express to serve our REST Apis.
-         Keywords like Apache Solr, Mongodb, Redis, Test Driven, BDD, Travis, Docker are everyday language.
 
-         Play with Scala, Akka, Spark, Mesos, Docker most of my free time.
+         Forked <a href="https://github.com/ubicall/node-red">NODE-RED</a> to deliver customized <a href="https://github.com/ubicall/node-red-contrib-ivr">IOT components</a> and
+         developing our own VoIP and call center solutions based on FreeSwitch and Asterisk servers. Beside that,
+         I used Javascript/<a href="https://en.wikipedia.org/wiki/AngularJS">Angularjs</a> to build many <a href="https://en.wikipedia.org/wiki/Single-page_application">Single-page applications</a> and also many REST APIs using Node.js and <a href="http://expressjs.com/">Expressjs</a>.
 
-
-      3.3  Apr. 2014 - Mar. 2015			Siliconexpert an Arrow Company
-
-         Delivering and enhancing solutions which deal with searching inside many terabytes of
-         data using wide range of technologies such as Apache Solr, Spring Framework, JPA,
-         GWT, JSF and Servlet which heavily depend on Hbase, MySql and Oracle as backend storage.
-         Participate in developing <a href="https://www.arrow.com/">Arrow</a> REST API which serve more than 5M request per Month.
-         Managing and set up OpenAM cluster as SSO solution in top of siliconexpert.
+         My everyday toolbox includes Apache Solr, Mongodb, Redis, Travis, and Docker.
 
 
-      3.4  Mar. 2013 - Apr. 2014 			Ferrycode
+      3.3 Apr. 2014 - Mar. 2015 		<a href='http://www.siliconexpert.com/'>Siliconexpert</a> an <a href='https://www.arrow.com/'>Arrow's</a> subsidiary   Cairo, Egypt
 
-        Use J2EE and Apache Solr to develop web-based editorial management tools for newspapers,
-        news agencies, media houses and content providers and publishers to manage, audit and
-        revise their content with their own designed editorial workflow.
+         Building and enhancing software solutions that deal with searching inside many terabytes of
+         data using a wide range of technologies such as Apache Solr, Spring Framework, JPA, <a href="https://en.wikipedia.org/wiki/Google_Web_Toolkit">GWT</a>, JSF and
+         Servlet which heavily depends on Hbase, MySql and Oracle as backend storage.
+
+         Was a part of the team who developed <a href="http://www.arrow.com/">Arrow</a> REST API which serves more than 5M requests per Month. I also worked on
+         Integrating <a href="https://en.wikipedia.org/wiki/OpenAM">OpenAM</a> as a <a href="https://en.wikipedia.org/wiki/Single_sign-on">Single sign-on</a> solution for all siliconexpert’s systems.
+
+
+      3.4 May. 2013 - Apr. 2014 		<a href='https://www.linkedin.com/company/ferrycode/'>Ferrycode</a>                             Cairo, Egypt
+
+        Used J2EE and <a href="https://lucene.apache.org/solr/">Apache Solr</a> to develop web-based editorial management tools for newspapers,
+        news agencies, and content providers and publishers to manage, audit and revise their content with
+        their own designed editorial workflow.
 
       4. Languages
 
         Arabic: First Language.
-        English: Professional working proficiency.
-        Deutsch: Elementary proficiency A2.
+        English: Full Professional Proficiency (C1, IELTS 2020).
+        Deutsch: Elementary proficiency (A2).
 
       5. Education
 
-        Bachelor of Computer Science, Faculty of computer science and information systems, Mansoura university, 2011.
+        <a href='https://drive.google.com/file/d/1vi1nYHc_zdr8dAku6jLvHHK5FvPH5VDm/view'>Bachelor of Computer Science</a>, Faculty of Computers and information,
+        Mansoura university, 2011<a href="#education_fn3">[3]</a>.
+
         Graduate Project: Handwriting OCR using Rough Neuro.
 
     </pre>
+
+    <hr style="height:1px;border:none;color:#333;background-color:#333;" />
+    <p style="font-size:11px" id="traffics_fn1">[1] <a href="https://web.archive.org/web/20190221195125/https://www.otds.de/en/">OTDS</a> is a new data format for the tourism industry that is efficient, clean and open. In Traffics,
+        OTDS shares the biggest portion (>50%) of the travel data that is delivered daily form our clients(tour and
+        flight operators).</p>
+    <p style="font-size:11px" id="traffics_fn2">[2] Traffics was an <a href="https://web.archive.org/web/20200908111221/https://www.otds.de/en/projects/traffics/">OTDS initiator</a> and currently a board member in the OTDS association.</p>
+    <p style="font-size:11px" id="education_fn3">[3] Equivalent to a bachelor degree in <a href="https://drive.google.com/file/d/1zMPy24_sNCqC6a5Tk9lyaE1vMki0HVEN/view">Canada</a> and Germany.</p>
 
 </body>
 
